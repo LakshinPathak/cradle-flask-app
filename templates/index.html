@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Audio File</title>
+</head>
+<body>
+    <h1>Upload a .wav file for prediction</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".wav">
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
